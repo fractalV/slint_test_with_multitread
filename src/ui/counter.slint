@@ -1,0 +1,8 @@
+import { AboutSlint, Button, VerticalBox } from "std-widgets.slint";
+
+export component MyCounter inherits Window {
+    in property <int> count;
+    in property <string> display_text;    
+    
+    Text { text: display_text; }    
+}
